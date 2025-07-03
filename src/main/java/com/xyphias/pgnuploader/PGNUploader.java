@@ -7,7 +7,5 @@ void main() throws IOException {
         paths
                 .filter(path -> !path.toString().contains(".git"))
                 .forEach(path -> println(path.toString()));
-    } catch (Exception e) {
-        throw e;
     }
 }
